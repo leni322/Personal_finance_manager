@@ -1,8 +1,6 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-from app.models import Transction
-
 
 class TransactionBase(BaseModel):
     amount: float
